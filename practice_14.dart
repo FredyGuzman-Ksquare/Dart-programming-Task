@@ -1,9 +1,9 @@
 class Practice14 {
-  List filterData(List<int> arr, int number) {
+  List filterData(List<int> input, int value) {
     var smallerNumbers = <int>[];
-    for (int i = 0; i < arr.length; i++) {
-      if (arr[i] < number) {
-        smallerNumbers.add(arr[i]);
+    for (int i = 0; i < input.length; i++) {
+      if (input[i] < value) {
+        smallerNumbers.add(input[i]);
       }
     }
     return smallerNumbers;
