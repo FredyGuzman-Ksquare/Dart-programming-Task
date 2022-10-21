@@ -1,8 +1,8 @@
 class Practice9 {
-  int getCount(String word, String char) {
+  int getCount(String input, String char) {
     int count = 0;
-    for (int i = 0; i < word.length; i++) {
-      if (word[i].compareTo(char) == 0) {
+    for (int i = 0; i < input.length; i++) {
+      if (input[i].compareTo(char) == 0) {
         count++;
       }
     }
